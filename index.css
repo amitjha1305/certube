@@ -1,3 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+   
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
 header {
     background-color: #FFFCFF;
     padding: 10px 20px;
@@ -40,4 +49,11 @@ padding:10px 0px ;
 nav li a {
     color: rgb(0, 0, 0);
     text-decoration: none;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
 }

@@ -17,7 +17,7 @@ body {
 }
 .hero-content {
     width: 40em; 
-    text-align: left;
+    /* text-align: left; */
 }
 .hero .pic img{
 width: 37.5em;
@@ -27,6 +27,7 @@ border-radius: 24px;
 }
 .hero-content h2 {
     font-size: 3.5rem;
+    font-weight: 500;
     color: #BA00BE;
 }
 
@@ -35,13 +36,16 @@ border-radius: 24px;
     margin: 20px 0;
     color: #0c0c0c;
 }
-
+.hero-content div{
+    text-align: end;
+    margin: 80px;
+}
 .hero-content .cta {
-    background-color: #28a745;
+    background-color:#EB44EE;
     padding: 10px 20px;
     color: white;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 100px;
 }
 .hero-content .cta hover{
     background-color: #BA00BE;
@@ -92,12 +96,4 @@ border-radius: 24px;
     color: white;
     text-decoration: none;
     border-radius: 5px;
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    margin-top: 40px;
 }
