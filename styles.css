@@ -8,65 +8,32 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
 }
-
-header {
-    background-color: #FFFCFF;
-    padding: 10px 20px;
-    justify-items: center;
-    color: rgb(0, 0, 0);
-    border: 1px solid #DD8CDC;
-    height: 5em;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav .logo img{
-    width: 8em;
-}
-
-nav .nav-links {
-    list-style: none;
-    display: flex;
-}
-
-nav .nav-links li {
-    margin-left: 20px;
-}
-
-nav .nav-links li a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-}
-
 .hero {
     background: url('hero-image.jpg') center/cover no-repeat;
     height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 200px;
 }
-
 .hero-content {
-    width: 440px;
-    color: #BA00BE;
+    width: 40em; 
     text-align: left;
 }
-.hero .pic{
+.hero .pic img{
 width: 37.5em;
 height: 25em;
+/* border: 2px solid #333; */
+border-radius: 24px;
 }
 .hero-content h2 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
+    color: #BA00BE;
 }
 
 .hero-content p {
     font-size: 1.2rem;
     margin: 20px 0;
+    color: #0c0c0c;
 }
 
 .hero-content .cta {
@@ -76,7 +43,9 @@ height: 25em;
     text-decoration: none;
     border-radius: 5px;
 }
-
+.hero-content .cta hover{
+    background-color: #BA00BE;
+}
 .featured-courses {
     padding: 40px 20px;
 }

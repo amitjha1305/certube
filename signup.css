@@ -7,40 +7,10 @@ body {
     height: 100vh;
     margin: 0;
 }
-header {
-    background-color: #333;
-    padding: 10px 20px;
-    color: white;
-}
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav .logo h1 {
-    color: white;
-}
-
-nav .nav-links {
-    list-style: none;
-    display: flex;
-}
-
-nav .nav-links li {
-    margin-left: 20px;
-}
-
-nav .nav-links li a {
-    color: white;
-    text-decoration: none;
-}
 main {
-
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 .auth-container {
     background-color: white;
@@ -51,7 +21,6 @@ main {
     width: 400px;
     text-align: center;
 }
-
 h2 {
     margin-bottom: 20px;
     color: #333;
