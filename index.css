@@ -28,22 +28,20 @@ nav .logo img{
 nav .nav-links  {
     list-style: none;
     display: flex;
+ 
 }
 nav .login-list  {
     list-style: none;
     display: flex;
+    padding:10px 0px ;
+     border:1px solid black;
+     border-radius: 100px;
+    text-align: center;
 }
 
 nav li {
-  width: 8em;
-padding:10px 0px ;
-  justify-content: center;
-  /* align-items: center; */
-  text-align: center;
-  /* padding: 14px 40px; */
-    margin-left: 20px;
-    border:1px solid black;
-    border-radius: 100px;
+    padding: 4px 8px;
+
 }
 
 nav li a {
