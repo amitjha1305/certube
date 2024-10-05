@@ -21,14 +21,14 @@ body {
     /* text-align: left; */
 }
 .hero .pic img{
-max-width: 37.5em;
-max-width: 25em;
+    width: 35em;
+    height: 25em;
 /* border: 2px solid #333; */
 border-radius: 24px;
 }
 .hero-content h2 {
-    /* font-size: 3.5rem; */
-    font-weight: 500;
+    font-size: 3em;
+    font-weight: 600;
     color: #BA00BE;
 }
 
@@ -55,9 +55,12 @@ border-radius: 24px;
     padding: 40px 20px;
 }
 
-.featured-courses h2 {
+section h2 {
+    font-weight: 5;
     text-align: center;
     margin-bottom: 20px;
+    color: #BA00BE
+    
 }
 
 .courses-grid {
@@ -97,4 +100,66 @@ border-radius: 24px;
     color: white;
     text-decoration: none;
     border-radius: 5px;
+}
+.review{
+    margin:0 auto;
+    width: 80%;
+    padding: 0 60px;
+    background-color: #FAF9FA;
+    border-radius: 3em;
+    justify-content: center;
+}
+.review .student-img img{
+    height: 290px;
+    width: 220px;
+    border-radius: 2em;
+} 
+.review .stage{
+
+    background-color: #F7CCF5;
+    height: 127.67px;
+    width: 361.5px;
+    /* box-shadow: 5px  #0c0c0c; */
+    
+    border-radius: 100%;
+}
+.review h2{
+    text-align: center;
+    padding: 20px;
+}
+.review .review-grid{
+    display: flex;
+}
+.text-review{
+    display: flex;
+    border: 3px solid;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.text-review .sname {
+    font-size: 24px;
+}
+.text-review .work {
+    font-size: 18px;
+}
+.text-review .rating .star img{
+    width: 20px;
+   
+}
+.text-review .rating .star .point {
+  font-size: 20px;
+}
+
+.text-review .comment{
+    font-size: 18px;
+    line-height: 32px;
+}
+.text-review .comment span{
+font-size: 48px;
+line-height: 32px;
+}
+.text-review .button{
+    font-size: 24px;
+    color: #BA00BE;
 }
