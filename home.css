@@ -2,16 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+ 
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: Arial, sans-serif; 
+}
+section{
+    border: 2px solid;
 }
 .hero {
     background: url('hero-image.jpg') center/cover no-repeat;
     height: 500px;
-    border: 2px solid;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,6 +31,7 @@ border-radius: 24px;
 }
 .hero-content h2 {
     font-size: 3em;
+    text-align:left;
     font-weight: 600;
     color: #BA00BE;
 }
@@ -48,8 +52,8 @@ border-radius: 24px;
     text-decoration: none;
     border-radius: 100px;
 }
-.hero-content .cta hover{
-    background-color: #BA00BE;
+.hero-content .cta :hover{
+    background-color: #260527;
 }
 .featured-courses {
     padding: 40px 20px;
@@ -63,7 +67,7 @@ section h2 {
     
 }
 
-.courses-grid {
+.courses-grid{
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -103,7 +107,7 @@ section h2 {
 }
 .review{
     margin:0 auto;
-    width: 80%;
+    width: 90%;
     padding: 0 60px;
     background-color: #FAF9FA;
     border-radius: 3em;
@@ -162,4 +166,50 @@ line-height: 32px;
 .text-review .button{
     font-size: 24px;
     color: #BA00BE;
+}
+.coursetype .heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.coursetype .heading .mainheading{
+    text-align: left;
+}
+.coursetype .coursetypebutton{
+    display: flex;
+    justify-content: space-between;
+    margin:20px 10%;
+}
+.coursetype .coursetypebutton div{
+    width: 250px;
+    border: 1px solid;
+    border-radius: 8px;
+    text-align: center;
+padding: 10px 0;
+background-color: #F7CCF5;
+color: white;
+}
+.letsstart{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 240px;
+    border-radius: 50px;
+    text-align: center;
+    border: 1px solid #DD8CDC;
+    background-color: #FEF7FE;
+    margin: 20px 10%;
+    padding: 64px;
+}
+.letsstart h1{
+    padding-bottom: 20px;
+    
+}
+.letsstart .cta {
+    background-color:#EB44EE;
+    padding: 20px 40px;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    border-radius: 100px;
 }
