@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive LMS Dashboard</title>
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+  <div class="dashboard">
+    <!-- Sidebar -->
+    <nav class="sidebar">
+      <div class="logo"><img src="my logo/certube png.png" alt=""></div>
+      <ul class="nav-links">
+        <li><a href="#">My Desk</a></li>
+        <li><a href="#">Courses</a></li>
+        <li><a href="#">My Profile</a></li>
+        <li><a href="#">Settings</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <header class="welcome-banner">
+        <h1>Welcome, Amit Kumar Jha</h1>
+        <p>Let's finish your Web development course</p>
+      </header>
+
+      <section class="web-course">
+        <div class="course-header">
+          <img src="imgamit/img 1.jpg" alt="Course Thumbnail">
+          <div class="course-header-details">
+            <h2>Basics of JavaScript</h2>
+            <p>34 Lectures</p>
+            <button>Start Again</button>
+            <button>Continue →</button>
+          </div>
+        </div>
+        <div class="course-details">
+          <h3>Web Development Course</h3>
+          <ul>
+            <li>1. Foundations of Web Development</li>
+            <li>2. JavaScript Essentials</li>
+            <li>3. Front-End Development Frameworks</li>
+            <li>4. Backend Development Basics</li>
+            <li>5. Full-Stack Development</li>
+            <li>6. Advanced Front-End Development</li>
+            <li>7. Database Management and Deployment</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="active-courses">
+        <h3>Active Courses</h3>
+        <div class="course-card">
+          <img src="imgamit/Thrive-During-Finals-.webp" alt="Frontend Development">
+          <h4>Frontend Development</h4>
+          <p>64 Lectures</p>
+          <button>Start Again</button>
+          <button>Continue →</button>
+        </div>
+        <div class="course-card">
+          <img src="backend.jpg" alt="Backend Development">
+          <h4>Backend Development</h4>
+          <p>40 Lectures</p>
+          <button>Start Again</button>
+          <button>Continue →</button>
+        </div>
+        <div class="course-card">
+          <img src="mern.jpg" alt="MERN Stack Development">
+          <h4>MERN Stack Development</h4>
+          <p>4 Lectures</p>
+          <button>Start Again</button>
+          <button>Continue →</button>
+        </div>
+      </section>
+
+      <section class="additional-info">
+        <div class="certificates">
+          <h3>My Certificates</h3>
+          <ul>
+            <li><a href="#">Certificate1.pdf</a></li>
+            <li><a href="#">Certificate2.pdf</a></li>
+            <li><a href="#">Certificate3.pdf</a></li>
+          </ul>
+        </div>
+        <div class="growth-report">
+          <h3>Your Growth Report</h3>
+          <canvas id="growthChart"></canvas>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="dashboard.js"></script>
+</body>
+</html>

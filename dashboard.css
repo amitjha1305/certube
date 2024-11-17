@@ -1,0 +1,125 @@
+:root {
+    --primary-color: #ff62c3;
+    --secondary-color: #fff;
+    --text-color: #333;
+    --font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    font-family: var(--font-family);
+    color: var(--text-color);
+    background-color: #f9f9f9;
+  }
+  
+  .dashboard {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .logo img{
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin: 15px 0;
+  }
+  
+  .nav-links a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .welcome-banner h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  .web-course{
+    display: flex;
+    justify-content: space-around
+  }
+  .course-header {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    border-radius: 29px;
+    width: 350px;
+    background-color: #ff62c342;
+  }
+  .course-header-details{
+    padding-bottom: 20px;
+    margin: 20px;
+  }
+  .course-header img {
+    width: 310px;
+    margin: 20px;
+    border-radius: 16px;
+  }
+  
+  .course-details ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .active-courses {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .course-card {
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+  }
+  .course-card img{
+    width: 200px;
+  }
+  .certificates, .growth-report {
+    margin-top: 20px;
+  }
+  
+  .growth-report canvas {
+    width: 100%;
+    height: 200px;
+  }
+  
+  @media (max-width: 768px) {
+    .dashboard {
+      flex-direction: column;
+    }
+  
+    .sidebar {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .active-courses {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  
