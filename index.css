@@ -1,4 +1,16 @@
+<<<<<<< HEAD
 
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+/* section{
+    border: 2px solid;
+} */
+>>>>>>> 309030e13881895e70aee5337430bc80cac6e4e5
 body {
     font-family:'Roboto+Serif', Arial, sans-serif;
     background-color: #f4f4f4;
